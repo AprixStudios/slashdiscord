@@ -1,7 +1,7 @@
 {
   "name": "slashdiscord",
   "version": "1.0.0",
-  "description": "Easily create, delete, and manage slash commands with Discord.JS",
+  "description": "Easily create, delete, and manage slash commands with SlashDiscord!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
