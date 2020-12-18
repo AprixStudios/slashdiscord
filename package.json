@@ -1,0 +1,25 @@
+{
+  "name": "slashdiscord",
+  "version": "1.0.0",
+  "description": "Easily create, delete, and manage slash commands with Discord.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AprixStudios/slashdiscord.git"
+  },
+  "keywords": [
+    "discord",
+    "slash",
+    "commands",
+    "discord.js"
+  ],
+  "author": "Aprixia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AprixStudios/slashdiscord/issues"
+  },
+  "homepage": "https://github.com/AprixStudios/slashdiscord#readme"
+}
