@@ -1,4 +1,4 @@
-class SlashDiscord {
+module.exports = class SlashDiscord {
     constructor(client) {
         if (!client || typeof client !== 'object') throw new SyntaxError("A client is required to initiate SlashDiscord.");
         if (!client.guilds || typeof client !== 'object') throw new TypeError("The client provided is not a valid client.");
