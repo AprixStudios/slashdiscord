@@ -2,7 +2,7 @@ module.exports = class SlashDiscord {
     constructor(client) {
         if (!client || typeof client !== 'object') throw new SyntaxError("A client is required to initiate SlashDiscord.");
         if (!client.guilds || typeof client !== 'object') throw new TypeError("The client provided is not a valid client.");
-        if (!client.api || typeof client.api !== 'function') throw new TypeError("The client provided is not a valid client. The API part is missing, which is the most curcial part for SlashDiscord.");
+        if (!client.api || typeof client.api !== 'function') throw new TypeError("The client provided is not a valid client. The API part is missing, which is the most crucial part for SlashDiscord.");
         this.client = client;
     }
 
